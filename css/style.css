@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body nav {
+  padding: 1em;
+  background-color: #CAF28D;
+  position: sticky;
+  top: 0;
+}
+body nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 70%;
+  font-size: 1.2em;
+  font-weight: bolder;
+  list-style-type: none;
+}
+body nav ul a {
+  color: #3C5910;
+  text-decoration: none;
+}
+body #wrapper {
+  display: flex;
+}
+body #wrapper h1 {
+  color: #1e73be;
+  text-align: center;
+}
+body #wrapper section {
+  margin: 3em;
+}
+body #wrapper #pequenos-canes figure {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+body #wrapper #pequenos-canes figure img {
+  width: 40%;
+}
+body #wrapper #pequenos-canes figure img:hover {
+  transform: scale(1.1);
+}
+body #wrapper #pequenos-canes p {
+  margin: auto;
+  margin-top: 2em;
+  width: 70%;
+  padding: 1em;
+  text-align: justify;
+}
+body #wrapper #razas table {
+  width: 80%;
+  margin: auto;
+}
+body #wrapper #razas table tr th {
+  color: #1e73be;
+}
+body #wrapper #razas table tr td {
+  height: 200px;
+  width: 200px;
+}
+body #wrapper #razas table tr td .table-image {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+}
+body #wrapper #razas table tr td .table-image:hover {
+  height: 100%;
+  width: 100%;
+}
+body #wrapper #servicios #contenedor-servicios {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+body #wrapper #servicios #contenedor-servicios img {
+  width: 50%;
+}
+body #wrapper #servicios #contenedor-servicios ul {
+  margin: auto;
+}
+body #wrapper #servicios #contenedor-servicios ul li {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+body #wrapper #contacto form {
+  width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 1em;
+  padding: 2em 2em 1em;
+}
+body #wrapper #contacto form input {
+  margin: 1em;
+  padding: 0 1em;
+  height: 3em;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+body #wrapper #contacto form input:focus {
+  color: none;
+  background-color: none;
+}
+body #wrapper #contacto form button {
+  margin: 2em 1em 1em;
+  height: 3em;
+  border-radius: .5em;
+}
+body aside {
+  margin: 0 1em;
+  width: 40%;
+}
+body aside #redes {
+  position: sticky;
+  top: 4em;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body aside div {
+  margin: .8em;
+}
+body footer {
+  height: 4em;
+  background-color: #CAF28D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body footer div {
+  text-align: center;
+}

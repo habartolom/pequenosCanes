@@ -1,0 +1,166 @@
+$green-background: #CAF28D;
+$green-text: #3C5910;
+$blue-title: #1e73be;
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    nav{
+        padding: 1em;
+        background-color: $green-background;
+        position: sticky;
+        top: 0;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            width: 70%;
+            font-size: 1.2em;
+            font-weight: bolder;
+            list-style-type: none;
+            
+            a{
+                color: $green-text;
+                text-decoration: none;
+            }
+        }
+    }
+    #wrapper{
+        display: flex;
+        h1{
+            color: $blue-title;
+            text-align: center;
+        }
+        section{
+            margin: 3em;
+        }
+        #pequenos-canes{
+            figure{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 40%;
+                }
+                img:hover{
+                    transform: scale(1.1);
+                }
+            }
+            p{
+                margin: auto;
+                margin-top: 2em;
+                width: 70%;
+                padding: 1em;
+                text-align: justify;
+            }
+        }
+        #razas{
+            table{
+                width: 80%;
+                margin: auto;
+                tr{
+                    th{
+                        color: $blue-title;
+                    }
+                    td{
+                        height: 200px;
+                        width: 200px;
+                        .table-image{
+                            height: 90%;
+                            width: 90%;
+                            object-fit: cover;
+                        }
+                        .table-image:hover{
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        #servicios{
+            #contenedor-servicios{
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                margin: auto;
+                img{
+                    width: 50%;
+                    
+                }
+                ul{
+                    margin: auto;
+                    li{
+                        margin-top: 20px;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+
+        }
+
+        #contacto{
+            form{
+                width: 320px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid gray;
+                border-radius: 1em;
+                padding: 2em 2em 1em;
+
+                input{
+                    margin: 1em;
+                    padding: 0 1em;
+                    height: 3em;
+                    border: none;
+                    border-bottom: 1px solid gray;
+                    
+                }
+
+                input:focus{
+                    color:none;
+                    background-color: none;
+                }
+
+                
+
+                button{
+                    margin: 2em 1em 1em;
+                    height: 3em;
+                    border-radius: .5em;
+                }
+            }
+        }
+    }
+    aside{
+        margin: 0 1em;
+        width: 40%;
+        #redes{
+            position: sticky;
+            top: 4em;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div{
+            margin: .8em;
+        }
+    }
+    footer{
+        height: 4em;
+        background-color: $green-background;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        div{
+            text-align: center;
+        }
+    }
+}
